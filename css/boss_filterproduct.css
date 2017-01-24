@@ -1,0 +1,384 @@
+.boss-filter-container {
+     margin-bottom: 60px;
+}
+.boss_homefilter_tabs {
+    position: relative;
+}
+.boss_homefilter_tabs .box-heading {
+    width: auto;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+    -webkit-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+    -moz-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+    -ms-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+}
+.right-to-left .boss_homefilter_tabs .box-heading {
+    right: 0;
+    left: auto;
+}
+.filter_pro_red h1, .filter_pro_red h1:before {
+    background-color: #168bc1;
+}
+.filter_pro_red + .tabs_container {
+   border-top: 2px solid #168bc1;
+}
+.filter_pro_pink h1, .filter_pro_pink h1:before {
+    background-color: #168bc1;
+}
+.filter_pro_pink + .tabs_container {
+   border-top: 2px solid #168bc1;
+}
+.filter_pro_green h1, .filter_pro_green h1:before {
+    background-color: #168bc1;
+}
+.filter_pro_green + .tabs_container {
+   border-top: 2px solid #168bc1;
+}
+.filter_pro_blue h1, .filter_pro_blue h1:before {
+    background-color: #168bc1;
+}
+.filter_pro_blue + .tabs_container {
+   border-top: 2px solid #168bc1;
+}
+.boss_homefilter_tabs .box-heading h1 {
+    position: relative;
+    padding: 12px 25px 12px 20px;
+    margin: 0;
+    color: #fff;
+    display: inline-block;
+}
+.boss_homefilter_tabs .box-heading h1 img {
+    margin-right: 8px;
+    vertical-align: -2px;
+}
+.right-to-left .boss_homefilter_tabs .box-heading h1 {
+    padding: 12px 20px 12px 25px;
+}
+.right-to-left .boss_homefilter_tabs .box-heading img {
+   margin-right: 0;
+   margin-left: 8px;
+}
+.boss_homefilter_tabs .box-heading h1:before {
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 7px;
+    right: -18px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+.right-to-left .boss_homefilter_tabs .box-heading h1:before {
+    left: -18px;
+    right: auto;
+}
+.boss_homefilter_tabs .tabs_container {
+   text-align: right;
+   box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -webkit-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -moz-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -ms-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   padding: 14px 20px 14px 220px;
+   background-color: #fff;
+}
+.right-to-left .boss_homefilter_tabs .tabs_container {
+   text-align: left;
+   padding: 14px 220px 14px 20px;
+}
+.boss_homefilter_tabs .tabs li {
+    display: inline-block;
+    vertical-align: top;
+}
+.boss_homefilter_tabs .tabs li + li a {
+    border-left: 1px solid #ccc;
+}
+.right-to-left .boss_homefilter_tabs .tabs li + li a {
+    border-left: none;
+    border-right: 1px solid #ccc;
+}
+.boss_homefilter_tabs .tabs li a, .boss_homefilter_tabs h3 a {
+    display: block;
+   font-family: 'DroidKufi';
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 400;
+}
+.boss_homefilter_tabs .filter_pro_red + .tabs_container li a:hover,
+.boss_homefilter_tabs .filter_pro_red + .tabs_container li.active a, 
+.boss_homefilter_tabs .filter_pro_red ~ .tabs_content_container h3 a:hover,
+.boss_homefilter_tabs .filter_pro_red ~ .tabs_content_container h3.active a {
+    color: #168bc1;
+}
+.boss_homefilter_tabs .filter_pro_pink + .tabs_container li a:hover,
+.boss_homefilter_tabs .filter_pro_pink + .tabs_container li.active a, 
+.boss_homefilter_tabs .filter_pro_pink ~ .tabs_content_container h3 a:hover,
+.boss_homefilter_tabs .filter_pro_pink ~ .tabs_content_container h3.active a {
+    color: #168bc1;
+}
+.boss_homefilter_tabs .filter_pro_green + .tabs_container li a:hover,
+.boss_homefilter_tabs .filter_pro_green + .tabs_container li.active a, 
+.boss_homefilter_tabs .filter_pro_green ~ .tabs_content_container h3 a:hover,
+.boss_homefilter_tabs .filter_pro_green ~ .tabs_content_container h3.active a {
+    color: #168bc1;
+}
+.boss_homefilter_tabs .filter_pro_blue + .tabs_container li a:hover,
+.boss_homefilter_tabs .filter_pro_blue + .tabs_container li.active a, 
+.boss_homefilter_tabs .filter_pro_blue ~ .tabs_content_container h3 a:hover,
+.boss_homefilter_tabs .filter_pro_blue ~ .tabs_content_container h3.active a {
+    color: #168bc1;
+}
+.boss_homefilter_tabs .tabs li a {
+    padding: 2px 25px 4px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.boss_homefilter_tabs .tabs_content_container .box-heading {
+    display: none;
+}
+.boss_homefilter_tabs .tabs_content_container .box-product li .product-thumb + .product-thumb {
+    margin-top: 20px;
+}
+.filter-banner {
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -webkit-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -moz-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+   -ms-box-shadow: 0 2px 5px rgba(147,147,147,0.35);
+}
+.filter-banner img {
+    width: 100%;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default {
+    margin-left: -15px;
+    margin-right: -15px;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    ms-animation-duration: 1s;
+    animation-name: bounce-in;
+    -webkit-animation-name: bounce-in;
+    -moz-animation-name: bounce-in;
+    -ms-animation-name: bounce-in;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .description {
+    display: none;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .image img {
+    width: 100%;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .image a {
+    display: block;
+}
+.boss_homefilter_tabs .tabs_content_container .rating {
+    margin-bottom: 12px;
+}
+.boss_homefilter_tabs .tabs_content_container .price {
+    margin-bottom: 0;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default > ul li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+.right-to-left .boss_homefilter_tabs .tabs_content_container .bt-default > ul li {
+    margin-left: -4px;
+    margin-right: 0;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default > ul .owl-wrapper li {
+    display: block;
+    margin: 0;
+    padding: 0 10px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .box-product li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .caroufredsel_wrapper li {
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    margin: 20px 0 0;
+    padding-bottom: 12px;
+}
+.filter-banner + div {
+    position: static;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .prev {
+    right: 38px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-default .next {
+    right: 0;
+}
+.right-to-left .boss_homefilter_tabs .tabs_content_container .bt-default .prev {
+    right: auto;
+    left: 0;
+}
+.right-to-left .boss_homefilter_tabs .tabs_content_container .bt-default .next {
+    right: auto;
+    left: 38px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-product-list li {
+    margin-bottom: 20px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-product-list .product-thumb .image {
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-product-list .product-thumb .caption {
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+}
+.boss_homefilter_tabs .tabs_content_container .bt-product-list .product-thumb .button-group.button-grid {
+    display: none;
+}
+.boss_homefilter_tabs .tabs_content_container .column li {
+    margin-bottom: 20px;
+}
+.boss_homefilter_tabs .tabs_content_container .column .product-thumb .image {
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+}
+.boss_homefilter_tabs .tabs_content_container .column .product-thumb .image span {
+    display: none;
+}
+.boss_homefilter_tabs .tabs_content_container .column .product-thumb .caption {
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+}
+.boss_homefilter_tabs .tabs_content_container .column .product-thumb .button-group {
+    display: none;
+}
+@keyframes bounce-in {
+    0% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bounce-in {
+    0% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.total {
+    display: none;
+}
+.hide-on-desktop {
+    display: none;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+.caroufredsel_wrapper {
+    margin: 0 !important;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-item.isotope-hidden {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope {
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s;
+    -webkit-transition-property: height,width;
+    transition-property: height,width;
+}
+.isotope .isotope-item {
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s;
+    -webkit-transition-property: -webkit-transform,opacity;
+    transition-property: transform,opacity;
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .boss_homefilter_tabs .tabs li a {
+        padding: 2px 18px 4px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .boss_homefilter_tabs .tabs_container {
+        padding: 14px 20px 14px 140px;
+    }
+    .right-to-left .boss_homefilter_tabs .tabs_container {
+        padding: 14px 140px 14px 20px;
+    }
+    .boss_homefilter_tabs .tabs li a {
+        padding: 2px 10px 4px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .hide-on-desktop {
+        display: block !important;
+    }
+    .boss_homefilter_tabs .box-heading {
+        position: static;
+        margin-bottom: 25px;
+    }
+    .boss_homefilter_tabs .tabs_content_container .bt-default {
+        margin-bottom: 25px;
+    }
+    .boss_homefilter_tabs .tabs_content_container .bt-default > ul li {
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .boss_homefilter_tabs .tabs_content_container .bt-default > ul > li {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .boss_homefilter_tabs .tabs_content_container .bt-default > ul > li {
+        width: 100%;
+    }
+}
+
+
+
